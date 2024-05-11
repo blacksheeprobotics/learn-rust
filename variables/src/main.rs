@@ -24,4 +24,8 @@ fn main() {
     let z = z.len();
 
     println!("The value of z is: {z}");
+
+    let guess: u32 = "500".parse().expect("Not a number!");
+
+    println!("The guess value is: {guess}");
 }
